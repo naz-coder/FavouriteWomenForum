@@ -134,6 +134,31 @@ footer p{
         padding: 1.2rem 1rem;
     }
 }
+@media(max-width: 580px){
+    .showcase::after{
+        height: 50vh;
+    }        
+    .content{
+        top: 5%;
+        margin-top: 5px;
+    }
+    .content .logo{
+        height: 100px;
+        width: 100px;
+    }
+    .content .text{
+        display: none;
+    }
+    .grid-3,
+    .grid-2{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    .services div{
+        border-bottom: #333 dashed 1px;
+        padding: 1.2rem 1rem;
+    }
+}
 
 /* landscape */
 @media(max-height:500px){
