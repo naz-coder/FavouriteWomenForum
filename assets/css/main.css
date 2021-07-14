@@ -112,19 +112,19 @@ footer p{
 /* small screens */
 @media(max-width: 786px){
     .showcase::after{
-        height: 50vh;
+        height: 100vh;
     }        
     .content{
-        top: 5%;
-        margin-top: 5px;
+        top: 7%;
+        margin-top: 7px;
     }
     .content .logo{
-        height: 100px;
+        height: 120px;
         width: 100px;
     }
-    .content .text{
+    /* .content .text{
         display: none;
-    }
+    } */
     .grid-3,
     .grid-2{
         grid-template-columns: 1fr;
@@ -136,19 +136,19 @@ footer p{
 }
 @media(max-width: 580px){
     .showcase::after{
-        height: 50vh;
+        height: 100vh;
     }        
     .content{
-        top: 5%;
-        margin-top: 5px;
+        top: 7%;
+        margin-top: 7px;
     }
     .content .logo{
-        height: 100px;
+        height: 120px;
         width: 100px;
     }
-    .content .text{
+    /* .content .text{
         display: none;
-    }
+    } */
     .grid-3,
     .grid-2{
         grid-template-columns: 1fr;
