@@ -71,3 +71,77 @@ in the html, the texts are imputed inside '' */
     overflow: hidden;
     padding: 4rem 1rem;
 }
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns: repeat(3, 1fr); */
+    grid-gap: 20px;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-gap: 20px;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background: #333;
+    color: #f4f4f4;
+}
+
+footer{
+    padding: 2.0rem;
+}
+
+footer p{
+    margin: 0;
+}
+
+/* small screens */
+@media(max-width: 786px){
+    .showcase::after{
+        height: 50vh;
+    }        
+    .content{
+        top: 5%;
+        margin-top: 5px;
+    }
+    .content .logo{
+        height: 100px;
+        width: 100px;
+    }
+    .content .text{
+        display: none;
+    }
+    .grid-3,
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .services div{
+        border-bottom: #333 dashed 1px;
+        padding: 1.2rem 1rem;
+    }
+}
+
+/* landscape */
+@media(max-height:600px){
+    .content .title,
+    .content .text{
+        display: none;
+    }
+    .content{
+        top: 0%;
+    }
+}
