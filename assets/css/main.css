@@ -136,7 +136,7 @@ footer p{
 }
 
 /* landscape */
-@media(max-height:600px){
+@media(max-height:500px){
     .content .title,
     .content .text{
         display: none;
